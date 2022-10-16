@@ -33,3 +33,17 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
+
+.navbar {
+  height: var(--nav-size);
+  background-color: var(--bg);
+  padding: 0 1rem;
+  border-bottom: var(--border);
+}
+
+.navbar-nav {
+  max-width: 100%; /*take the entire width of parent*/
+  height: 100%;
+  display: flex;
+  justify-content: flex-end; /*line up the children to the right of the screen*/
+}

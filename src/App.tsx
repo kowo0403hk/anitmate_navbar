@@ -1,7 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
+import Navbar from "./Components/Navbar";
 
-const App = () => {
-  return <div>App</div>;
+const App: FC = () => {
+  return <Navbar />;
 };
 
 export default App;

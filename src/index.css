@@ -47,3 +47,34 @@ a {
   display: flex;
   justify-content: flex-end; /*line up the children to the right of the screen*/
 }
+
+.nav-item {
+  width: calc(var(--nav-size) * 0.8); /*dynamically control the size of the item box width*/
+  display: flex;
+  align-items: center;
+  justify-content: center; /* to control the child item to be displayed in the middle of the item box*/
+}
+
+.icon-button {
+  --button-size: calc(var(--nav-size) * 0.5); /* define local scope variable to dynamically adjust the size of the button container*/
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: var(--bg-accent);
+  border-radius: 50%; /* by having the same width and height, plus 50% border radius, the container becomes a circle*/
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /*to make sure the children props will locate in the center of the container*/
+  transition: filter 300ms;
+}
+
+.icon-button:hover {
+  filter: brightness(1.2);
+}
+
+.icon-button svg { /*adjust the size of the svg icons*/
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px;
+}

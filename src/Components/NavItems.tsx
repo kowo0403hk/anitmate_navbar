@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 interface Items {
-  icon: string;
+  icon: JSX.Element;
 }
 
 const NavItems: FC<Items> = ({ icon }: Items) => {

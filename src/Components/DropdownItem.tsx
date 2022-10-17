@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 interface MenuItems {
   children?: JSX.Element | string;
-  leftIcon?: JSX.Element;
+  leftIcon?: JSX.Element | string;
   rightIcon?: JSX.Element;
   goToMenu?: string;
   setActiveMenu?: React.Dispatch<React.SetStateAction<string>>;

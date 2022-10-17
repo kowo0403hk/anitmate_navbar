@@ -5,13 +5,13 @@ This is a practice project to strengthen knowledge of React and CSS animations. 
 ## Screenshots
 
 First Level Dropdown List
-![1st level]()
+![1st level](https://github.com/kowo0403hk/anitmate_navbar/blob/master/docs/First%20Level%20Drop%20Down.png?raw=true)
 
 Second Level Dropdown List - 1
-![2nd level]()
+![2nd level](https://github.com/kowo0403hk/anitmate_navbar/blob/master/docs/Second%20Level%20Drop%20Down%201.png?raw=true)
 
 Second Level Dropdown List - 2
-![2nd level]()
+![2nd level](https://github.com/kowo0403hk/anitmate_navbar/blob/master/docs/Second%20Level%20Drop%20Down%202.png?raw=true)
 
 ## Getting Started with Create React App
 

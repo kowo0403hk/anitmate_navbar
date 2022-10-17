@@ -1,11 +1,11 @@
 import React, { FC, useState } from "react";
 
-interface NavItems {
+interface NavItem {
   icon: JSX.Element;
   children?: JSX.Element;
 }
 
-const NavItems: FC<NavItems> = (props: NavItems) => {
+const NavItems: FC<NavItem> = (props: NavItem) => {
   const [open, setOpen] = useState(false);
 
   return (

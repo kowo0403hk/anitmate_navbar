@@ -59,8 +59,8 @@ a {
   --button-size: calc(var(--nav-size) * 0.5); /* define local scope variable to dynamically adjust the size of the button container*/
   width: var(--button-size);
   height: var(--button-size);
-  background-color: var(--bg-accent);
   border-radius: 50%; /* by having the same width and height, plus 50% border radius, the container becomes a circle*/
+  background-color: var(--bg-accent);
   padding: 5px;
   margin: 2px;
   display: flex;
@@ -77,4 +77,34 @@ a {
   fill: var(--text-color);
   width: 20px;
   height: 20px;
+}
+
+/* dropdown menu */
+.dropdown {
+  position: absolute;
+  top: 58px;
+  width: 300px;
+  transform: translateX(-45%);
+  background-color: var(--bg);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover {
+  background-color: #525357;
+}
+
+.icon-right {
+  margin-left: auto; /*it will place the right icon to the right and push other elements all the way to the left*/
 }

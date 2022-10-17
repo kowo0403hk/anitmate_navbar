@@ -1,15 +1,20 @@
-import React, { FC } from "react";
+import React, { FC, useState } from "react";
 
-interface Items {
+interface NavItems {
   icon: JSX.Element;
+  children?: JSX.Element;
 }
 
-const NavItems: FC<Items> = ({ icon }: Items) => {
+const NavItems: FC<NavItems> = (props: NavItems) => {
+  const [open, setOpen] = useState(false);
+
   return (
     <li className="nav-item">
-      <a className="icon-button" href="#">
-        {icon}
+      <a className="icon-button" href="#" onClick={() => setOpen(!open)}>
+        {props.icon}
       </a>
+
+      {open && props.children}
     </li>
   );
 };

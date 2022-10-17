@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Animated Nav Bar with React
+
+This is a practice project to strengthen knowledge of React and CSS animations. All credits to Fireship.io (https://www.youtube.com/watch?v=IF6k0uZuypA).
+
+## Screenshots
+
+First Level Dropdown List
+![1st level]()
+
+Second Level Dropdown List - 1
+![2nd level]()
+
+Second Level Dropdown List - 2
+![2nd level]()
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

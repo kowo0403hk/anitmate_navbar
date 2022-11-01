@@ -3,7 +3,11 @@
 This is a practice project to strengthen knowledge of React and CSS animations. All credits to Fireship.io (https://www.youtube.com/watch?v=IF6k0uZuypA).
 
 ## Video
-https://user-images.githubusercontent.com/79962776/199327786-1b6751ee-87d2-4927-8887-d8429ab760bf.mp4
+
+
+https://user-images.githubusercontent.com/79962776/199330298-0792b6bb-ef1d-4b94-b606-6856317d8154.mp4
+
+
 
 ## Screenshots
 
